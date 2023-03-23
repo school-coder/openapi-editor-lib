@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { OpenapiEditorLibComponent } from './openapi-editor-lib.component';
+import { EditorComponent } from './editor.component';
 
 describe('OpenapiEditorLibComponent', () => {
-  let component: OpenapiEditorLibComponent;
-  let fixture: ComponentFixture<OpenapiEditorLibComponent>;
+  let component: EditorComponent;
+  let fixture: ComponentFixture<EditorComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ OpenapiEditorLibComponent ]
+      declarations: [ EditorComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(OpenapiEditorLibComponent);
+    fixture = TestBed.createComponent(EditorComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

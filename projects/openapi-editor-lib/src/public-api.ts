@@ -3,5 +3,5 @@
  */
 
 export * from './lib/openapi-editor-lib.service';
-export * from './lib/openapi-editor-lib.component';
+export * from './lib/editor.component';
 export * from './lib/openapi-editor-lib.module';

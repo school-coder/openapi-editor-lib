@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
-import { OpenapiEditorLibComponent } from './openapi-editor-lib.component';
+import { EditorComponent } from './editor.component';
 
 
 
 @NgModule({
   declarations: [
-    OpenapiEditorLibComponent
+    EditorComponent
   ],
   imports: [
   ],
   exports: [
-    OpenapiEditorLibComponent
+    EditorComponent
   ]
 })
 export class OpenapiEditorLibModule { }
