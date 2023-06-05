@@ -11,7 +11,7 @@ declare var monaco: any;
   styles: [`
       :host {
           display: block;
-          height: 200px;
+          height: 600px;
       }
       .editor-container {
           width: 100%;
